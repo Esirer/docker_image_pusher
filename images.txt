@@ -1,10 +1,13 @@
 nginx
-#支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
+#支持私库k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
+#支持指定架构--platform=linux/arm64 xiaoyaliu/alist
 xhofe/alist:latest
 codercom/code-server
 lobehub/lobe-chat:latest
 moonrailgun/tailchat
-moonrailgun/tailchat
-#支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+sonatype/nexus3
+baiyuetribe/baota_mini
+
+
+
+
